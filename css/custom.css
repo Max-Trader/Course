@@ -1,0 +1,40 @@
+/* Certifique-se de que a seção do carrossel esteja configurada corretamente */
+section.client {
+    padding: 4em 0em;
+    background-color: #000;
+}
+
+section.client .section-title {
+    margin-bottom: 6em;
+}
+
+.carousel-client {
+    display: flex;
+    overflow: hidden; /* Oculta o conteúdo que excede o tamanho do contêiner */
+}
+
+.carousel-client .slide {
+    display: inline-block; /* Faz com que as imagens fiquem em linha horizontal */
+    margin-right: 10px; /* Espaçamento entre as imagens */
+}
+
+.bx-wrapper .bx-pager {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.bx-wrapper .bx-pager .bx-pager-item, 
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #666;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    border-radius: 5px;
+}
