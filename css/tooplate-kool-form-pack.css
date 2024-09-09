@@ -232,7 +232,7 @@ strong {
 
 /* Estilos gerais para os ícones sociais */
 .social-icon-item img {
-    width: 40px; /* Tamanho padrão dos ícones */
+    width: 20px; /* Tamanho padrão dos ícones */
     height: auto;
     margin: 0 10px;
 }
