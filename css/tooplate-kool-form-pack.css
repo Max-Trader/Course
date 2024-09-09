@@ -230,26 +230,27 @@ strong {
   margin-left: 10px;
 }
 
-/* Estilos gerais para os ícones sociais */
-.social-icon-item img {
-    width: 20px; /* Tamanho padrão dos ícones */
-    height: auto;
-    margin: 0 10px;
-}
-
-/* Ajustes específicos para telas menores */
+/* Ajuste para a class social icons no mobile */
 @media (max-width: 768px) {
-    .social-icon-item img {
-        width: 25px; /* Reduz o tamanho dos ícones em dispositivos móveis */
-        margin: 0 5px;
-    }
-}
+  .social-icons {
+    display: flex;
+    justify-content: center; /* Centraliza os ícones no header */
+    flex-wrap: wrap; /* Permite que os ícones se reorganizem se não couberem em uma linha */
+  }
 
-@media (max-width: 480px) {
-    .social-icon-item img {
-        width: 20px; /* Ajusta ainda mais para telas muito pequenas */
-        margin: 0 3px;
-    }
+  .social-icons img {
+    width: 30px; /* Ajusta o tamanho dos ícones para caber na tela */
+    height: auto;
+    margin: 5px; /* Espaçamento entre os ícones */
+  }
+
+  /* Ajuste para o header */
+  header {
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* Faz com que os elementos do header fiquem em coluna no mobile */
+    align-items: center; /* Centraliza os elementos no mobile */
+  }
 }
 
 .offcanvas {
